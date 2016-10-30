@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace VPNConnector
 {
-    public class Class1
+    public enum Protocol
     {
+        SSTP,
+        IKEV2,
+        PPTP,
+        L2TP,
     }
 }
